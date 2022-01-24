@@ -90,7 +90,7 @@ class _ImagePageViewSliderState extends State<ImagePageViewSlider> with SingleTi
   void initState() {
     // TODO: implement initState
     super.initState();
-    _pageController = PageController(viewportFraction: 0.74, initialPage: 1);
+    _pageController = PageController(viewportFraction: 0.87, initialPage: 1);
     _currentPage = 1;
   }
   @override
